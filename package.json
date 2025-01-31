@@ -1,10 +1,9 @@
 {
-  "homepage": "https://santhoshdatturi.github.io/todoer/",
   "name": "redux",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "./",
+  "homepage": "https://santhoshdatturi.github.io/todoer/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
