@@ -43,15 +43,15 @@ export function Todo({ todo }) {
               }}
             >
               {isEditable ?
-                <img className="w-6" src="/save-light.svg" alt="Save" />
-              : <img className="w-6" src="/edit.svg" alt="Edit" />}
+                <img className="w-6" src="./save-light.svg" alt="Save" />
+              : <img className="w-6" src="./edit.svg" alt="Edit" />}
             </button>
           )}
           <button
             className="m-2 p-0 px-0 flex-1 bg-amber-300 w-12 rounded-lg shadow-md hover:bg-amber-200 transition duration-500 ease-in-out transform hover:scale-105"
             onClick={() => dispatch(showDeleteMessage(todo.id))}
           >
-            <img className="w-6" src="/trash.svg" alt="Remove" />
+            <img className="w-6" src="./trash.svg" alt="Remove" />
           </button>
         </div>
       </li>
